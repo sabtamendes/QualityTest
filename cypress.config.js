@@ -7,7 +7,7 @@ module.exports = defineConfig({
   viewportHeight: 768,
   e2e: {
     setupNodeEvents(on, config) {},
-    specPattern: '3-automation/cypress/integration/**/*.*',
+    specPattern: '3-automation/cypress/e2e/**/*.*',
     baseUrl: 'https://www.tudocelular.com/compare/',
     supportFile: false
   }

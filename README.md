@@ -34,7 +34,10 @@ Para executar o cypress, digite o seguinte comando no terminal:
 ``` bash
 npx cypress run
 ```
-
+ou 
+``` bash
+npm run test
+```
 Para abrir o cypress, digite o seguinte comando no terminal:
 ``` bash
 npx cypress open
@@ -42,6 +45,10 @@ npx cypress open
 ou 
 ``` bash
 ./node_modules/.bin/cypress open
+```
+ou
+``` bash
+npm run open
 ```
 </details>
 
